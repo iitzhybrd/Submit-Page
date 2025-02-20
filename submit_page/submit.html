@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name and Last Name Submission</title>
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="submit.css">
+</head>
+<body>
+    <h1>Name and Last Name Submission</h1>
+
+    <!-- Create a form with an ID for JavaScript interaction -->
+    <form id="submit-form">
+        <!-- Input field for the first name with a label -->
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <!-- Input field for the last name with a label -->
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <!-- Submit button for form submission -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Container for displaying response messages -->
+    <div id="response"></div>
+
+    <!-- Include an external JavaScript file for interactivity -->
+    <script src="submit.js"></script>
+</body>
+</html>
